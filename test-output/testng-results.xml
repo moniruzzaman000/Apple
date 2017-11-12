@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37100" started-at="2017-11-12T18:46:13Z" finished-at="2017-11-12T18:46:50Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37100" started-at="2017-11-12T18:46:13Z" finished-at="2017-11-12T18:46:50Z">
+      <class name="tests.TestRegisterFeature">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.TestRegisterFeature@7cd62f43]" name="setup" is-config="true" duration-ms="8740" started-at="2017-11-12T13:46:04Z" finished-at="2017-11-12T13:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="classSetUp()[pri:0, instance:tests.TestRegisterFeature@7cd62f43]" name="classSetUp" is-config="true" duration-ms="238" started-at="2017-11-12T13:46:13Z" finished-at="2017-11-12T13:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetUp -->
+        <test-method status="PASS" signature="testDateOFBirthFieldWithEmpty()[pri:0, instance:tests.TestRegisterFeature@7cd62f43]" name="testDateOFBirthFieldWithEmpty" duration-ms="2914" started-at="2017-11-12T13:46:13Z" finished-at="2017-11-12T13:46:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDateOFBirthFieldWithEmpty -->
+        <test-method status="PASS" signature="testDateOFBirthFieldWithInValidDateOfBirth()[pri:0, instance:tests.TestRegisterFeature@7cd62f43]" name="testDateOFBirthFieldWithInValidDateOfBirth" duration-ms="3088" started-at="2017-11-12T13:46:16Z" finished-at="2017-11-12T13:46:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDateOFBirthFieldWithInValidDateOfBirth -->
+        <test-method status="PASS" signature="testDateOFBirthFieldWithValidDateOfBirth()[pri:0, instance:tests.TestRegisterFeature@7cd62f43]" name="testDateOFBirthFieldWithValidDateOfBirth" duration-ms="1901" started-at="2017-11-12T13:46:19Z" finished-at="2017-11-12T13:46:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDateOFBirthFieldWithValidDateOfBirth -->
+        <test-method status="PASS" signature="testFirstNameFieldWithCombinationOfStringAndInteger()[pri:0, instance:tests.TestRegisterFeature@7cd62f43]" name="testFirstNameFieldWithCombinationOfStringAndInteger" duration-ms="1922" started-at="2017-11-12T13:46:21Z" finished-at="2017-11-12T13:46:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstNameFieldWithCombinationOfStringAndInteger -->
+        <test-method status="PASS" signature="testFirstNameFieldWithOneChar()[pri:0, instance:tests.TestRegisterFeature@7cd62f43]" name="testFirstNameFieldWithOneChar" duration-ms="2069" started-at="2017-11-12T13:46:23Z" finished-at="2017-11-12T13:46:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstNameFieldWithOneChar -->
+        <test-method status="PASS" signature="testFirstNameFieldWithThirtyChar()[pri:0, instance:tests.TestRegisterFeature@7cd62f43]" name="testFirstNameFieldWithThirtyChar" duration-ms="2480" started-at="2017-11-12T13:46:25Z" finished-at="2017-11-12T13:46:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstNameFieldWithThirtyChar -->
+        <test-method status="PASS" signature="testFirstNameFieldWithThirtyOneChar()[pri:0, instance:tests.TestRegisterFeature@7cd62f43]" name="testFirstNameFieldWithThirtyOneChar" duration-ms="2141" started-at="2017-11-12T13:46:28Z" finished-at="2017-11-12T13:46:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstNameFieldWithThirtyOneChar -->
+        <test-method status="PASS" signature="testFirstNameFieldWithTwoChar()[pri:0, instance:tests.TestRegisterFeature@7cd62f43]" name="testFirstNameFieldWithTwoChar" duration-ms="3144" started-at="2017-11-12T13:46:30Z" finished-at="2017-11-12T13:46:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFirstNameFieldWithTwoChar -->
+        <test-method status="PASS" signature="testGenderDropdownWithOutSelectOption()[pri:0, instance:tests.TestRegisterFeature@7cd62f43]" name="testGenderDropdownWithOutSelectOption" duration-ms="1769" started-at="2017-11-12T13:46:33Z" finished-at="2017-11-12T13:46:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenderDropdownWithOutSelectOption -->
+        <test-method status="PASS" signature="testLastNameFieldWithCombinationOfStringAndInteger()[pri:0, instance:tests.TestRegisterFeature@7cd62f43]" name="testLastNameFieldWithCombinationOfStringAndInteger" duration-ms="1514" started-at="2017-11-12T13:46:35Z" finished-at="2017-11-12T13:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLastNameFieldWithCombinationOfStringAndInteger -->
+        <test-method status="PASS" signature="testLastNameFieldWithOneChar()[pri:0, instance:tests.TestRegisterFeature@7cd62f43]" name="testLastNameFieldWithOneChar" duration-ms="1618" started-at="2017-11-12T13:46:36Z" finished-at="2017-11-12T13:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLastNameFieldWithOneChar -->
+        <test-method status="PASS" signature="testLastNameFieldWithThirtyChar()[pri:0, instance:tests.TestRegisterFeature@7cd62f43]" name="testLastNameFieldWithThirtyChar" duration-ms="1245" started-at="2017-11-12T13:46:38Z" finished-at="2017-11-12T13:46:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLastNameFieldWithThirtyChar -->
+        <test-method status="PASS" signature="testLastNameFieldWithThirtyOneChar()[pri:0, instance:tests.TestRegisterFeature@7cd62f43]" name="testLastNameFieldWithThirtyOneChar" duration-ms="1552" started-at="2017-11-12T13:46:39Z" finished-at="2017-11-12T13:46:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLastNameFieldWithThirtyOneChar -->
+        <test-method status="PASS" signature="testLastNameFieldWithTwoChar()[pri:0, instance:tests.TestRegisterFeature@7cd62f43]" name="testLastNameFieldWithTwoChar" duration-ms="1482" started-at="2017-11-12T13:46:41Z" finished-at="2017-11-12T13:46:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLastNameFieldWithTwoChar -->
+        <test-method status="PASS" signature="testPhoneNoFieldWithEmpty()[pri:0, instance:tests.TestRegisterFeature@7cd62f43]" name="testPhoneNoFieldWithEmpty" duration-ms="2197" started-at="2017-11-12T13:46:42Z" finished-at="2017-11-12T13:46:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPhoneNoFieldWithEmpty -->
+        <test-method status="PASS" signature="testPhoneNoFieldWithInvalidNumber()[pri:0, instance:tests.TestRegisterFeature@7cd62f43]" name="testPhoneNoFieldWithInvalidNumber" duration-ms="1460" started-at="2017-11-12T13:46:44Z" finished-at="2017-11-12T13:46:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPhoneNoFieldWithInvalidNumber -->
+        <test-method status="PASS" signature="testPhoneNoFieldWithValidNumber()[pri:0, instance:tests.TestRegisterFeature@7cd62f43]" name="testPhoneNoFieldWithValidNumber" duration-ms="1320" started-at="2017-11-12T13:46:46Z" finished-at="2017-11-12T13:46:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPhoneNoFieldWithValidNumber -->
+        <test-method status="PASS" signature="testGenderDropdownWithRandomOption()[pri:1, instance:tests.TestRegisterFeature@7cd62f43]" name="testGenderDropdownWithRandomOption" duration-ms="2613" started-at="2017-11-12T13:46:47Z" finished-at="2017-11-12T13:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenderDropdownWithRandomOption -->
+        <test-method status="PASS" signature="classTeardown()[pri:0, instance:tests.TestRegisterFeature@7cd62f43]" name="classTeardown" is-config="true" duration-ms="170" started-at="2017-11-12T13:46:50Z" finished-at="2017-11-12T13:46:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTeardown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.TestRegisterFeature@7cd62f43]" name="tearDown" is-config="true" duration-ms="956" started-at="2017-11-12T13:46:50Z" finished-at="2017-11-12T13:46:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.TestRegisterFeature -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
